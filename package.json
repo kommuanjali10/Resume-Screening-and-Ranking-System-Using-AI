@@ -1,0 +1,24 @@
+{
+  "name": "resume-screening-and-ranking-System-Using-AI",
+  "version": "1.0.0",
+  "description": "Resume Screening and Ranking System Using AI - Final Year Major Project",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "resume-screening",
+    "candidate-ranking",
+    "applicant-tracking-system",
+    "rule-based-screening",
+    "mern-stack"
+  ],
+  "author": "Student Final Year Project",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
